@@ -6,7 +6,11 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Its_me_arzoo</title>
+        <title>TODO supply a title</title>
+        <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
         <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -20,8 +24,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div id="navigation-links">
-            <nav class="navbar navbar-inverse navbar-fixed-top"  >
+        <nav class="navbar navbar-inverse navbar-fixed-top"  >
             <div class="container-fluid">
                 <div class="navbar-header active">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
@@ -34,23 +37,22 @@ and open the template in the editor.
                 
                 <div class="collapse navbar-collapse" id="mynavbar">
     <ul class="nav navbar-nav navbar-right">
-      <li ><a href="#">MTH101</a></li>
-      <li ><a href="#">PHY102</a></li>
-      <li ><a href="#">PHY103</a></li>
-      <li ><a href="#">ESC101</a></li>
+      <li  class="subj"><a href="#">MTH101</a></li>
+      <li class="subj"><a href="#">PHY102</a></li>
+      <li class="subj"><a href="#">PHY103</a></li>
+      <li class="subj"><a href="#">ESC101</a></li>
     </ul>
                 </div>
             </div>
             
         </nav>
-       </div>
         
-        
-        <center>
+    <center>
         
         <div class="container-fluid img-responsive " id="content">
             <div class="row">
-            <div class="col-xs-4 jumbotron" id="dp">
+                <div id="left">
+            <div class="col-lg-4 jumbotron" id="dp">
                 <img src="IMG_20180626_020156.jpg" alt="My Profile" class="img-responsive">
                 <br>
                 <center>
@@ -61,7 +63,8 @@ and open the template in the editor.
                 </p>
                 </center>
             </div>
-            <div class="col-xs-5 col-xs-offset-3 jumbotron  " id="poem">
+                </div>
+            <div class="col-lg-5 col-lg-offset-3 jumbotron  " id="poem">
                 
 "I seek the thrill of knowing<br>
 Of knowing it all<br>
@@ -97,13 +100,27 @@ When we know nothing...."<br>
         
     </center>
     
-    <div class="jumbotron" id="footer">
+    <div class="footer">
         <center>
-            Contact me: 
+            <div id="con">
+                Contact me:<br>
+            </div>
+        </center>
+        <center>
+            <ul class="horizontle-list">
+            <li id="lin">
+                <a href="#">My Facebook</a>
+            </li>
+            <li id="lin">
+                <a href="#">My Instagram</a>
+            </li>
+            </ul>
         </center>
         
-    </div>
-        
+    </div> 
+    
+    
+   
     </body>
 </html>
 
