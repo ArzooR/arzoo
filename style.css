@@ -1,3 +1,4 @@
+
 .navbar-brand{
     text-decoration: blink;
     font-family: Berkshire Swash;
@@ -37,7 +38,7 @@ and open the template in the editor.
 }
 }
 #content{
-    background-image: url("http://www.kinyu-z.net/data/wallpapers/249/1577733.jpg");
+    background-image: url("https://www.planwallpaper.com/static/images/violet-vector-leaves-circles-backgrounds-for-powerpoint_PdfkI4q.jpg");
     background-size: auto;
     
     padding-top:75px;
@@ -71,11 +72,11 @@ a{
     text-decoration: none;
 }
 .footer{
-    background-color:#7646d9;
+    background-color:#ABB8EC;
       
 }
 #con{
-    color:#ffffff;
+    color:black;
     font-family: Aladin;
     font-size: 200%;
     padding:10px;
