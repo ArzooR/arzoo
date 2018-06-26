@@ -63,36 +63,32 @@ and open the template in the editor.
     border: solid black 1px;
     font-family: Barrio;
 }
-ul{
-    list-style-type: none;
-}
+
 a{
-    display:block;
+    display:inline;
     padding:10px;
-    color:#fb2ae6;
+    color:#ffffff;
     text-decoration: none;
 }
 .footer{
-    background-color:#0b055c;
+    background-color:#7646d9;
       
 }
 #con{
     color:#ffffff;
     font-family: Aladin;
     font-size: 200%;
+    padding:10px;
+}
+.contacts{
+    
+    
+    padding: 10px;
+    
     
 }
-
-.horizontle-list{
-    display:inline
-}
-
-#poem{
-    font-family:Aladin;
-    color:white;
-    font-size:175%;
-}
-
-.jumbotron{
-     background-color:rgba(7,3,3,0.3);
+.contacts:hover{
+    color:greenyellow;
+    text-decoration: none;
+    
 }
